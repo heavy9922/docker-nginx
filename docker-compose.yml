@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  web:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./src/qr-prueba-JS:/usr/share/nginx/html
